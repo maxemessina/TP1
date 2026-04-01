@@ -1,49 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="titulo">Pedido de servicio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Solicitud de Servicio</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <h1>Solicitud de servicio</h1>
-    <div>
-        <div class="servicio">
-            <h3>Musculacion</h3>
-            <img src="\assets\img\musuclacion.png" alt="Foto 1">
-            <h3>oaofoisjgjsojg</h3>
-            <h6></h6>
-        </div>
-        <div class="servicio">
-            <h3>Pilates</h3>
-            <img src="\assets\img\pilates.png" alt="Foto 1">
-            <h3>oaofoisjgjsojg</h3>
-            <h6></h6>
-        </div>
-        <div class="servicio">
-            <h3>Crossfit</h3>
-            <img src="\assets\img\crossfit.png" alt="Foto 1">
-            <h3>oaofoisjgjsojg</h3>
-            <h6></h6>
+
+<header>
+    <h1>Solicitud de Servicio</h1>
+</header>
+
+<nav>
+    <center><button type="button">Inicio</button></center>
+</nav>
+
+<main>
+
+    <form>
+
+        <div class="campo">
+            <label>Nombre completo:</label>
+            <input type="text" name="nombre">
         </div>
 
-    </div>
-    <label for="name"><h3>Nombre:</h3></label>
-    <input type="name" id="name" name="name">
-    <br><br>
-    <label for="name"><h3>Telefono:</h3></label>
-    <input type="text" id="Telefono" name="Telefono">
-    <br><br>
-     <label for="name"><h3>Correo:</h3></label>
-    <input type="text" id="Correo" name="Correo">
-    <br>
-    <input type="sumbit" value="Enviar">
-    <input type="reset" value="Borrar">
+        <div class="campo">
+            <label>Teléfono:</label>
+            <input type="tel" name="telefono">
+        </div>
 
+        <div class="campo">
+            <label>Servicio:</label>
+            <select>
+                <option>Musculación</option>
+                <option>Pilates</option>
+                <option>Crossfit</option>
+            </select>
+        </div>
 
+        <div class="campo">
+            <label>Tiempo:</label>
+            <div class="inline">
+                <input type="radio" name="Tiempo"> Medio mes
+                <input type="radio" name="Tiempo"> Mes completo
+            </div>
+        </div>
 
+        <div class="campo">
+            <label>Fecha de inicio:</label>
+            <input type="date">
+        </div>
 
-    
+        <div class="campo">
+            <label>Comentarios:</label>
+            <textarea rows="4"></textarea>
+        </div>
+
+        <div class="botones">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </div>
+
+    </form>
+
+</main>
+
+<footer>
+    <p><center>© 2026 - Gimnasio Online</center></p>
+</footer>
+
 </body>
 </html>
