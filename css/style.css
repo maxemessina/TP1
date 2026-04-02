@@ -66,3 +66,15 @@ button {
     border: none;
     font-size: 18px;      
 }
+
+.menu {
+    display: flex;
+    justify-content: center; /* centra el menú */
+    gap: 10px; /* espacio entre botones */
+    flex-wrap: wrap; /* en celular baja si no entra */
+}
+
+.menu button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
