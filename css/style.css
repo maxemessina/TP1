@@ -1,0 +1,80 @@
+/* Centrar todo el contenido */
+body {
+    background-color: black;
+    color: #00ff88;
+    font-size: 25px;
+    margin: 0;
+}
+
+/* Contenedor centrado */
+form {
+    width: 500px;
+    margin: 40px auto; /* 👈 esto centra */
+    padding: 20px;
+    border-top: 2px solid #00ff88;
+}
+
+/* Título centrado */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #00ff88;
+}
+
+/* Campos */
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    color: #00ff88;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+/* Inputs */
+input, select, textarea {
+    width: 100%;
+    padding: 13px;
+    margin-top: 5px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    
+}
+
+/* Radios y checkbox */
+.inline input {
+    width: auto;
+    margin-right: 10px;
+    font-size: 1px;
+}
+
+/* Botones */
+.botones {
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+button {
+    padding: 12px 25px;  
+    margin: 10px;
+    background-color: #00ff88;
+    color: black;
+    border: none;
+    font-size: 18px;      
+}
+
+.menu {
+    display: flex;
+    justify-content: center; /* centra el menú */
+    gap: 10px; /* espacio entre botones */
+    flex-wrap: wrap; /* en celular baja si no entra */
+}
+
+.menu button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
