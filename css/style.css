@@ -1,27 +1,114 @@
-/* Centrar todo el contenido */
+/* ===== ESTILOS GENERALES ===== */
 body {
-    background-color: black;
-    color: #00ff88;
-    font-size: 25px;
+    background-color: #0f0f0f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    padding: 0;
 }
 
-/* Contenedor centrado */
+header {
+    text-align: center;
+    color: #00ff88;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: #00ff88;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #00cc70;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* ===== SERVICIOS ===== */
+
+.servicio {
+    display: inline-block;
+    width: 300px;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+    box-shadow: 0 0 10px rgba(0, 255, 100, 0.2);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servicio:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 255, 100, 0.6);
+}
+
+.servicio img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.titulo-servicio {
+    color: #00ff88;
+    margin-top: 10px;
+}
+
+.descripcion {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.precio {
+    font-weight: bold;
+    color: #ccc;
+}
+
+/* ===== PEDIDO ===== */
+
+/* formulario */
 form {
     width: 500px;
-    margin: 40px auto; /* 👈 esto centra */
+    margin: 40px auto;
     padding: 20px;
     border-top: 2px solid #00ff88;
 }
 
-/* Título centrado */
-h1 {
+/* SOLO títulos dentro del form */
+form h1 {
     text-align: center;
     margin-top: 20px;
     color: #00ff88;
 }
 
-/* Campos */
+/* campos */
 .campo {
     margin-bottom: 15px;
 }
@@ -33,48 +120,34 @@ label {
     font-size: 20px;
 }
 
-/* Inputs */
+/* inputs */
 input, select, textarea {
     width: 100%;
     padding: 13px;
     margin-top: 5px;
     color: black;
     background-color: white;
-    font-size: 20px;
-    
+    font-size: 16px;
 }
 
-/* Radios y checkbox */
+/* radios */
 .inline input {
     width: auto;
     margin-right: 10px;
-    font-size: 1px;
 }
 
-/* Botones */
+/* botones */
 .botones {
     margin-top: 15px;
     text-align: center;
-
 }
 
 button {
-    padding: 12px 25px;  
+    padding: 12px 25px;
     margin: 10px;
     background-color: #00ff88;
     color: black;
     border: none;
-    font-size: 18px;      
-}
-
-.menu {
-    display: flex;
-    justify-content: center; /* centra el menú */
-    gap: 10px; /* espacio entre botones */
-    flex-wrap: wrap; /* en celular baja si no entra */
-}
-
-.menu button {
-    padding: 10px 15px;
+    font-size: 18px;
     cursor: pointer;
 }
