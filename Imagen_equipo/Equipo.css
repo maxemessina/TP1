@@ -1,0 +1,64 @@
+body{
+    margin: 0
+}
+header h1{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    
+}
+header p{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+.header{
+    height: 107px;
+    background-image:url("Fondo_header.jpg");
+    background-repeat:repeat;
+    background-size:190px;
+
+}
+
+.Imagen_equipo{
+    position:relative;
+    width: 500px;
+    object-fit: cover;
+    display: block;
+}
+.Presentacion{
+    width: fit-content;
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+}
+p{
+    text-align: center;
+    height: 200px;
+    
+}
+.footer{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    gap: 40px;
+    background-color: black;
+
+    
+}
+.Contacto{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+.imagenes_contacto{
+    width: 40px;
+}
+footer p{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+
+}
