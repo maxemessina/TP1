@@ -52,6 +52,7 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+    
 }
 
 /* Cualquier imagen adentro de un figure se adapta automáticamente */
@@ -214,4 +215,63 @@ footer a:hover, article a:hover {
 
 .faq-item h3 {
     color: #00ff88;
+}
+
+
+/*PARTE DE LA PAGINA EQUIPO.HTML*/
+
+/*Dejo un gap (espacio) entre una presentacion y otra*/
+.equipo{
+    margin-bottom: 80px;
+}
+/*Acomodo el tamanio de imagenes de perfil*/
+.Imagen_equipo{
+    position:relative;
+    width: 500px;
+    object-fit: cover;
+    display: block;
+}
+/*Retoco las presentaciones para que no esten tan pegadas y alineo nombres y cargos(texto)*/
+.Presentacion{
+    width: fit-content;
+    margin: 150px;
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+    font-size: 35px;
+    
+}
+/*Marco un espaciado en el texto maximo para que no ocupe toda la pantalla*/
+.Presentacion p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 60%;
+}
+
+
+/*Modifico el footer de la pagina equipo.html */
+.footer{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    position: relative; /*Para el absolute del copyright*/
+}
+/*achico imagenes y ordeno los parrafos del footer*/
+.imagenes_contacto{
+    width: 30px;
+    margin-inline: 40px;
+}
+/*Alineo los div del footer (ig,mail y num + copyright*/
+.Contacto{
+    display: flex;
+    align-items: center;
+    height: 107px;
+}
+#Copyright{
+    position: absolute;
+    bottom: 5px;   /* lo pega abajo */
+    width: 100%;
+    text-align: center;
 }
