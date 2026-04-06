@@ -73,9 +73,10 @@ header p{
     
     
 }
-footer p{
+.footer p{
     color: white;
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
 }
+
