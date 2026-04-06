@@ -190,3 +190,28 @@ main h2, main h3, article a,footer a {
 footer a:hover, article a:hover {
     color: #00cc70;
 }
+
+/* ===== FAQ ===== */
+
+.faq-item {
+    display: inline-block;
+    width: 300px;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+    box-shadow: 0 0 10px rgba(0, 255, 100, 0.2);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faq-item:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 255, 100, 0.6);
+}
+
+.faq-item h3 {
+    color: #00ff88;
+}
