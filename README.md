@@ -19,6 +19,8 @@ El desarrollo fue dividido de manera equitativa, asignando la maquetación y est
 
 *Nota: Todos los integrantes colaboraron en la unificación de los estilos globales mediante el archivo `style.css`, destacando a **Lucas Rojas** y **Máximo Moraes** que desarrollaron la plantilla base.*
 
+*Nota para la profesora: La rama de alumno-arrimada, encargada de hacer el formulario de contacto, es la que tuvo problemas de conexión con git. Por eso es que el header, el footer y el nav quedaron desactualizados. Gracias por ayuda.
+
 ## Tecnologías Utilizadas
 
 * **HTML5:** Estructura semántica (`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<footer>`).
