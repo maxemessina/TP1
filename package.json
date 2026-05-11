@@ -1,0 +1,31 @@
+{
+  "name": "tp1",
+  "version": "1.0.0",
+  "description": "Proyecto de desarrollo web creado para el Trabajo Práctico N°1. Consiste en la maquetación completa del sitio web para un centro de entrenamiento integral, aplicando buenas prácticas de desarrollo, diseño responsivo básico y trabajo colaborativo.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxemessina/TP1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maxemessina/TP1/issues"
+  },
+  "homepage": "https://github.com/maxemessina/TP1#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "nodemon": "^3.1.14"
+  }
+}
