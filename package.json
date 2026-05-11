@@ -1,0 +1,31 @@
+{
+  "name": "tp1",
+  "version": "1.0.0",
+  "description": "TP3",
+  "homepage": "https://github.com/maxemessina/TP1#readme",
+  "bugs": {
+    "url": "https://github.com/maxemessina/TP1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxemessina/TP1.git"
+  },
+  "license": "ISC",
+  "author": "Lucas Rojas",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "nodemon": "^3.1.14"
+  }
+}
