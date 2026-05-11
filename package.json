@@ -1,0 +1,30 @@
+{
+  "name": "tp3-api",
+  "version": "1.0.0",
+  "description": "API REST para el TP3 de Programación III",
+  "homepage": "https://github.com/maxemessina/TP1#readme",
+  "bugs": {
+    "url": "https://github.com/maxemessina/TP1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxemessina/TP1.git"
+  },
+  "license": "ISC",
+  "author": "Grupo 16 (Arrimada, Astudillo, Guerrieri, Messina, Moraes, Rojas)",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "nodemon": "^3.1.14"
+  }
+}
